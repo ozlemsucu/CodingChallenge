@@ -37,3 +37,9 @@ function generateTasks(objSlug) {
 
 // Exporterar funktionen så att den kan användas i testfilen
 module.exports = { generateTasks };
+
+// Detta körs bara om du kör "node index.js" direkt i terminalen
+if (require.main === module) {
+  const result = generateTasks("Test-Slug");
+  console.log(result); // Skriv ut uppgifterna
+}
