@@ -1,0 +1,13 @@
+site_name: QA Documentation
+theme:
+  name: mkdocs
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Objective Flow: objective-flow.md
+  - KPI Dashboard: kpi-dashboard.md
+  - Security Checklist: security.md
+  - Dashboard: dashboard.md
+  - CI Workflow: docs/ci-workflow.md
+  
